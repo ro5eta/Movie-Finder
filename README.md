@@ -24,6 +24,7 @@ Las tecnologías utilizadas son:
     - módulos:
         - fs: para el manejo de archivos
         - http: para las comunicaciones ente cliente y servidor y de las peticiones a la api (Request & Response)
+        - dotenv: para acceder a variables de entorno (api_key)
 - lenguajes: javascript, hmtl y css (con algo de Bootstrap)
 
 
