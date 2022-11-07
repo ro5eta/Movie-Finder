@@ -94,7 +94,7 @@ Para iniciar la aplicación web hay que introducir el siguiente comando, desde l
 ```
 npm run-script start
 ```
-Donde verá el siguiente mensaje:
+Donde verá el siguiente mensaje, en el que el servidor se ha iniciado:
 ```
 > moviefinderapp@1.0.0 start
 > node ./app.js
