@@ -16,7 +16,7 @@ Contenidos:
 
 La aplicación consiste de un simple buscador de películas donde se muestra algo de información sobre éstas.
 
-En cuanto a detalles más técnicos, la aplicación web utiliza la API de películas `The Movie Database` https://www.themoviedb.org/documentation/api) y está compuesta de dos partes, la parte del servidor y la del cliente. El servidor responde las peticiones del cliente y consulta a la base de datos mencionada antes a través de su api. El cliente se encarga de solicitar datos al servidor y mostrarlos al usuario.
+En cuanto a detalles más técnicos, la aplicación web utiliza la API de películas `The Movie Database` (https://www.themoviedb.org/documentation/api) y está compuesta de dos partes, la parte del servidor y la del cliente. El servidor responde las peticiones del cliente y consulta a la base de datos mencionada antes a través de su api. El cliente se encarga de solicitar datos al servidor y mostrarlos al usuario.
 
 Las tecnologías utilizadas son:
 - node js (v18.12.0) y npm (8.19.2):
