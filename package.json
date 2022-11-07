@@ -1,0 +1,19 @@
+{
+  "dependencies": {
+    "dotenv": "^16.0.3"
+  },
+  "scripts": {
+    "start": "node ./app.js"
+  },
+  "files": [
+    "./css/style.css"
+  ],
+  "name": "moviefinderapp",
+  "version": "1.0.0",
+  "main": "app.js",
+  "keywords": [],
+  "author": "rsertal@inf.upv.es",
+  "license": "ISC",
+  "description": "A simple movie finder with some information",
+  "devDependencies": {}
+}
