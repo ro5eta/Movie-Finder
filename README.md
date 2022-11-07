@@ -65,7 +65,7 @@ Antes de instalar el módulo, hay que asegurarse de tener la estructura de carpe
         -- script.js
   -> views
         |
-        -- script.js
+        -- index.html
 ```
 Ahora en un terminal (linux por ejemplo), donde la carpeta raíz de esos archivos, introducir el comando:
 ```
