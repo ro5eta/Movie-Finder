@@ -54,7 +54,6 @@ Antes de instalar el módulo, hay que asegurarse de tener la estructura de carpe
 -root (raíz de la ruta donde se encuentran los archivos)
   |
   -- .env
-  -- .gitignore
   -- app.js
   -- package.json
   -- package-lock.json
