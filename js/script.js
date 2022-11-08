@@ -50,7 +50,7 @@ $(document).ready(function () {
    console.log(r);
    for (var i = 0; i<r.length; i++){
       var img = getImage(r[i].poster_path);
-      var date = (('release_date' in r[i]) && (r[i].release_date!==null) && (r[i].release_date!=="")) ? r[i].release_date.substring(0, 4) : "No date found";
+      var date = ((!r[i].release_date) && (r[i].release_date!=="")) ? r[i].release_date.substring(0, 4) : "No date found";
       res += "<div class='container'><div class='result'><a href='javascript:showDetails("+ i +")'><h3>" + r[i].title +  " (" + date + ")</h3></a></div><div clas='resIMG'>" + img + "</div></div>";
    }
                
@@ -73,7 +73,7 @@ $(document).ready(function () {
    var res = "";
    var img = getImage(r.poster_path);
    var description = r.overview.length !== 0 ? description = r.overview : "Description not available";
-   var date = (('release_date' in r) && (r.release_date!==null) && (r.release_date!=="")) ? r.release_date.substring(0, 4) : "No date found";
+   var date = ((!r.release_date) && (r.release_date!=="")) ? r.release_date.substring(0, 4) : "No date found";
    var date2 = 'release_date' in r ? r.release_date : "No date found";
    res +="<div class='containerDetails'><div class='resultDetails'><h3>" + r.title + " (" + date + ")</h3><h4>User rating: "+ Math.round(r.vote_average * 10) +"%</h4><p>"+ date2 + " " + getGenres(r.genre_ids) + "</p><p>Original language: "+ r.original_language +"</p><p>Description:</p><p>"+ description +"</p></div><div class='resIMGDetails'>" + img + "</div></div>";
 
