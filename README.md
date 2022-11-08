@@ -44,7 +44,7 @@ Por lo tanto será necesario que quién vaya a probar esta aplicación web intro
 ```
 API_KEY="introduzca_su_api_key"
 ```
-`Nota: para obtener una api key hay que registrarte en el servicio y luego acceder a cuenta>ajustes>api pra ver la clave de api asignada`
+`Nota: para obtener una api key hay que registrarte en el servicio y luego acceder a cuenta>ajustes>api para ver la clave de api asignada`
 
 ### 2.3 Módulo dotenv y pakage json
 Para que el servidor pueda utilizar esa variable es necesario utilizar el módulo dotenv, que se encarga de acceder a archivos `.env` y manejarlos para así leer sus entradas.
