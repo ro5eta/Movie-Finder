@@ -40,10 +40,11 @@ Es necesario tener instalado NodeJS (http://nodejs.org/) y npm, que se instala p
 ### 2.2 Uso de la api key
 Para poder utilizar la api de `The Movie Database` es necesario una `API_KEY` y así hacer las peticiones necesarias a este servicio. Quién maneja la api y las peticiones al servicio es el servidor. Éste lo extrae de un documento `.env`, que guarda variables de entorno, mientras esta en ejecución. 
 
-Por lo tanto será necesario que quién vaya a probar esta aplicación web introduzca en el campo `API_KEY` del documendo `.env` su clave de api obtenida desde su página web (de la api The Movie Database):
+Por lo tanto será necesario que quién vaya a probar esta aplicación web introduzca en el campo `API_KEY` del documendo `.env` su clave de api obtenida (de la api The Movie Database):
 ```
 API_KEY="introduzca_su_api_key"
 ```
+`Nota: para obtener una api key hay que registrarte en el servicio y luego acceder a cuenta>ajustes>api pra ver la api asignada`
 
 ### 2.3 Módulo dotenv y pakage json
 Para que el servidor pueda utilizar esa variable es necesario utilizar el módulo dotenv, que se encarga de acceder a archivos `.env` y manejarlos para así leer sus entradas.
