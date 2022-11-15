@@ -50,7 +50,7 @@ const server = http.createServer((req, res) => {
     res.setHeader('Content-Type', headers[0]);
     res.end(index);
   } else if(req.url == "/genres") {
-    var urlGET = 'https://api.themoviedb.org/3/genre/movie/list?api_key=' + ak +  "&language=en-US";
+    var urlGET = 'http://api.themoviedb.org/3/genre/movie/list?api_key=' + ak +  "&language=en-US";
     const rq = http.request(urlGET, (rs) => {
       let data = '';
       rs.on('data', (chunk) => {
